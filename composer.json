@@ -1,0 +1,17 @@
+{
+    "name": "Epoch2/http-codes",
+    "description": "A HTTP Status code library.",
+    "keywords": ["http", "http status", "http code"],
+    "authors": [
+        {
+            "name": "Johan Vester",
+            "homepage": "http://jvester.se"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Epoch2": "src/"
+        }
+    }
+}
