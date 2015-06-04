@@ -36,7 +36,7 @@ echo HttpCodes::HTTP_OK; // 200
 ```
 
 # Full reference
-These are all the available status codes the names they are accessible under.
+These are all the available status codes and the names they are accessible under.
 
 ## 1xx - Informational
 | Property                   | Code |
