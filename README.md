@@ -1,5 +1,5 @@
 # http-codes
-HTTP Status codes in an accessible format.
+PHP library for easily accessing HTTP Status codes.
 
 # Table of Contents
 * [Installation](#installation)
