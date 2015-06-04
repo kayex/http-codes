@@ -1,4 +1,6 @@
 # http-codes
+[![Latest Stable Version](https://poser.pugx.org/epoch2/http-codes/v/stable)](https://packagist.org/packages/epoch2/http-codes) [![Total Downloads](https://poser.pugx.org/epoch2/http-codes/downloads)](https://packagist.org/packages/epoch2/http-codes) [![License](https://poser.pugx.org/epoch2/http-codes/license)](https://packagist.org/packages/epoch2/http-codes)
+
 PHP library for easily accessing HTTP Status codes.
 
 # Table of Contents
