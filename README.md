@@ -20,7 +20,7 @@ use Epoch2\HttpCodes;
 echo HttpCodes::HTTP_OK; // 200
 ```
 
-# Optional: Alias
+# Optional: Laravel alias
 Laravel users might want to set up an alias for quick access by adding the following to the alias array in `app/config/app.php`:
 ```php
 'HttpCodes'         => 'Epoch2\HttpCodes',
