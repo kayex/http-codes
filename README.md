@@ -5,6 +5,8 @@ PHP library for easily accessing HTTP Status codes.
 * [Installation](#installation)
 * [Usage](#usage)
 * [Alias](#alias)
+* [Full reference](#full-reference)
+* [License](#license)
 
 # Installation
 Composer
@@ -98,3 +100,6 @@ These are all the available status codes the names they are accessible under.
 |`HTTP_SERVICE_UNAVAILABLE` | 503|
 |`HTTP_GATEWAY_TIMEOUT` | 504|
 |`HTTP_VERSION_NOT_SUPPORTED` | 505|
+
+# License
+MIT
