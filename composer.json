@@ -1,6 +1,6 @@
 {
     "name": "epoch2/http-codes",
-    "description": "A HTTP Status code library.",
+    "description": "Small PHP library for easily accessing HTTP Status Codes.",
     "keywords": ["http", "http status", "http code"],
     "authors": [
         {
