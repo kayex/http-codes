@@ -4,7 +4,7 @@ PHP library for easily accessing HTTP Status codes.
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Optional: Laravel alias](#optional:-laravel-alias)
+* [Optional: Laravel alias](#optional-laravel-alias)
 * [Full reference](#full-reference)
 * [License](#license)
 
