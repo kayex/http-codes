@@ -1,7 +1,7 @@
 {
     "name": "kayex/http-codes",
     "description": "Small PHP library for easily accessing HTTP Status Codes.",
-    "keywords": ["http", "http status", "http code"],
+    "keywords": ["http", "http status", "status code"],
     "authors": [
         {
             "name": "Johan Vester",
@@ -10,8 +10,8 @@
     ],
     "license": "MIT",
     "autoload": {
-        "psr-0": {
-            "Kayex": "src/"
+        "psr-4": {
+            "Kayex\\": "src/Kayex/"
         }
     }
 }
