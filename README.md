@@ -13,13 +13,13 @@ PHP library for easily accessing HTTP Status codes.
 # Installation
 Composer
 ```
-composer require Epoch2/http-codes
+composer require kayex/http-codes
 ```
 
 # Usage
 The codes are accessible as `public static` properties on the HttpCodes class
 ```php
-use Epoch2\HttpCodes;
+use Kayex\HttpCodes;
 
 echo HttpCodes::HTTP_OK; // 200
 ```
@@ -27,7 +27,7 @@ echo HttpCodes::HTTP_OK; // 200
 # Optional: Laravel alias
 Laravel users may want to set up an alias for quick access by adding the following to the alias array in `app/config/app.php`:
 ```php
-'HttpCodes'         => 'Epoch2\HttpCodes',
+'HttpCodes'         => 'Kayex\HttpCodes',
 ```
 
 The codes can then be used like this:
