@@ -1,4 +1,4 @@
-<?php namespace Epoch2;
+<?php namespace kayex;
 
 /** 
  * Created by Johan Vester
