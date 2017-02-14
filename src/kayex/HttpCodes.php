@@ -1,4 +1,4 @@
-<?php namespace kayex;
+<?php namespace Kayex;
 
 /** 
  * Created by Johan Vester

@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-0": {
-            "kayex": "src/"
+            "Kayex": "src/"
         }
     }
 }
