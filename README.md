@@ -1,5 +1,5 @@
 # http-codes
-[![Latest Stable Version](https://poser.pugx.org/kayex/http-codes/v/stable)](https://packagist.org/packages/epoch2/http-codes) [![Total Downloads](https://poser.pugx.org/epoch2/http-codes/downloads)](https://packagist.org/packages/epoch2/http-codes) [![License](https://poser.pugx.org/kayex/http-codes/license)](https://packagist.org/packages/kayex/http-codes)
+[![Latest Stable Version](https://poser.pugx.org/kayex/http-codes/v/stable)](https://packagist.org/packages/kayex/http-codes) [![Total Downloads](https://poser.pugx.org/kayex/http-codes/downloads)](https://packagist.org/packages/kayex/http-codes) [![License](https://poser.pugx.org/kayex/http-codes/license)](https://packagist.org/packages/kayex/http-codes)
 
 PHP library for easily accessing HTTP Status codes.
 
