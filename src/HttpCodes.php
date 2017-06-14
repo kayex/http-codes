@@ -1,4 +1,6 @@
-<?php namespace Kayex;
+<?php declare(strict_types = 1);
+
+namespace Kayex;
 
 /** 
  * Created by Johan Vester
@@ -59,4 +61,20 @@ class HttpCodes
     const HTTP_SERVICE_UNAVAILABLE = 503;
     const HTTP_GATEWAY_TIMEOUT = 504;
     const HTTP_VERSION_NOT_SUPPORTED = 505;
+
+    public static function isSuccessful(int $code): bool
+    {
+        switch($code) {
+            case self::HTTP_OK:
+            case self::HTTP_CREATED:
+            case self::HTTP_ACCEPTED:
+            case self::HTTP_NONAUTHORITATIVE_INFORMATION:
+            case self::HTTP_NO_CONTENT:
+            case self::HTTP_RESET_CONTENT:
+            case self::HTTP_PARTIAL_CONTENT:
+                return true;
+            default:
+                return false;
+        }
+    }
 }
