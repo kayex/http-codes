@@ -31,7 +31,7 @@ class HttpCodesTest extends BaseTestCase
 
     public function testIsSuccessFulReturnsFalseOnUnsuccessfulCode()
     {
-        $unsuccesfulCodes = [
+        $unsuccessfulCodes = [
             400,
             401,
             402,
@@ -59,7 +59,7 @@ class HttpCodesTest extends BaseTestCase
             505,
         ];
 
-        foreach ($unsuccesfulCodes as $code) {
+        foreach ($unsuccessfulCodes as $code) {
             $successful = HttpCodes::isSuccessful($code);
 
             $this->assertFalse($successful);
