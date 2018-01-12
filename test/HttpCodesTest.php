@@ -1,6 +1,4 @@
-<?php declare(strict_types = 1);
-
-namespace Kayex\HttpCodes\Tests;
+<?php namespace Kayex\HttpCodes\Tests;
 
 // Core
 use PHPUnit\Framework\TestCase as BaseTestCase;

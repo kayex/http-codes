@@ -1,13 +1,4 @@
-<?php declare(strict_types = 1);
-
-namespace Kayex;
-
-/** 
- * Created by Johan Vester
- * jv@jvester.se
- *
- * Date: 02/05/15
- */
+<?php namespace Kayex;
 
 class HttpCodes
 {
@@ -62,7 +53,13 @@ class HttpCodes
     const HTTP_GATEWAY_TIMEOUT = 504;
     const HTTP_VERSION_NOT_SUPPORTED = 505;
 
-    public static function isSuccessful(int $code): bool
+    /**
+     * Checks whether a status code can be considered successful.
+     *
+     * @param $code
+     * @return bool
+     */
+    public static function isSuccessful($code)
     {
         switch($code) {
             case self::HTTP_OK:
