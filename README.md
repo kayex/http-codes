@@ -91,6 +91,7 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_UNSUPPORTED_MEDIA_TYPE` | 415|
 |`HTTP_REQUESTED_RANGE_NOT_SATISFIABLE` | 416|
 |`HTTP_EXPECTATION_FAILED` | 417|
+|`HTTP_UNPROCESSABLE_ENTITY` | 422|
 
 
 ## 5xx - Server Error

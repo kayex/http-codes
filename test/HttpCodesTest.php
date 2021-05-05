@@ -48,6 +48,7 @@ class HttpCodesTest extends BaseTestCase
             415,
             416,
             417,
+            422,
 
             500,
             501,
